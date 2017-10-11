@@ -6,6 +6,7 @@ end
 
 def print(students)
   students.each do |student|
+    #this max_length can be manipulated to change max_length
     max_length = 12
     if student[:name].length < max_length
       puts "#{student[:name]} (#{student[:cohort]} cohort)"

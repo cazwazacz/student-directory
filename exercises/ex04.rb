@@ -5,6 +5,7 @@ def print_header
 end
 
 def print(students)
+  #while loop is used here in place of each loop 
   index = 0
   while index < students.length
     puts "#{students[index][:name]} (#{students[index][:cohort]} cohort)"

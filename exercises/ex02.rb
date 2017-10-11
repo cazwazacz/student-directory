@@ -6,6 +6,7 @@ end
 
 def print(students)
   students.each do |student|
+    # change this first_letter to filter out for first letters
     first_letter = 'a'
     if student[:name][0] == first_letter
       puts "#{student[:name]} (#{student[:cohort]} cohort)"
